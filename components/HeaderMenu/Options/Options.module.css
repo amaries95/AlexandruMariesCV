@@ -1,0 +1,38 @@
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55%;
+}
+
+@media only screen and (max-width: 1100px) {
+    .options {
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .options {
+        height: 63%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .options {
+        height: 70%;
+        padding-top: 20%;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    .options {
+        height: 70%;
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .options {
+        padding-top: 10%;
+    }
+}

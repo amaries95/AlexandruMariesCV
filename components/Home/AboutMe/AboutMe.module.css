@@ -82,9 +82,9 @@
 }
 
 @media screen and (max-width: 500px) {
-    /* p {
+    .info-container p {
         font-size: 12px;
-    } */
+    }
 
     .describe-me h3 {
         font-size: 18px;

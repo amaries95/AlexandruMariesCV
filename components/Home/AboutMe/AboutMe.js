@@ -6,7 +6,7 @@ export default function AboutMe(props)
         <div className={style.container}>
             <div className={style['describe-me']}>
                 <div className={style['about-me']}>
-                    <h3>About Me (Alexandru Maries)</h3>
+                    <h3>About Me</h3>
                 </div>
                 <div className={style['about-me-container']}>
                     <p>&emsp;&emsp;I'm a passionate software developer with experience on web and desktop development, who is always looking for new challenges in order to continue to learn and, of course, to consolidate the current knowledge.

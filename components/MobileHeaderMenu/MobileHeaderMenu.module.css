@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    background-color: darkcyan;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+@media (min-width: 701px), (min-height: 501px) {
+    .container{
+        display: none;
+    }
+}
+
+@media (max-width: 700px), (max-height: 500px) {
+    .container{
+        display: flex;
+    }
+}

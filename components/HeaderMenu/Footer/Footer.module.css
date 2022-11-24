@@ -1,0 +1,48 @@
+.bottom-info {
+    background-color: darkcyan;
+    border-radius: 0%;
+    height: 10%;
+    width: 100%;
+    padding-bottom: 3%;
+    display: flex;
+}
+
+.icon{
+    margin: auto;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1000px) {
+    .icon a span svg {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .icon a span svg {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .icon a span svg {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .icon a span svg {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .icon a span svg {
+        height: 15px;
+        width: 15px;
+    }
+}

@@ -1,0 +1,76 @@
+.container {
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid darkcyan;
+    overflow: hidden;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.details {
+    padding: 1%;
+}
+
+.details p{
+    display: inline-block;
+    margin-bottom: 0.5%;
+}
+
+.description li:last-child{
+    margin-bottom: 0;
+}
+
+.description ul{
+    margin-bottom: 0;
+    padding-top: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description ul li{
+    list-style-type: circle;
+    margin-right: 7%;
+    margin-top: 1%;
+    min-width: 40%;
+}
+
+.role{
+    color: rgb(111, 192, 187);
+    display: block !important;
+    margin: 0 !important;
+    padding-left: 0.5% !important;
+    font-style: italic;
+}
+
+.period-of-time {
+    margin-left: 1%;
+    color: rgb(158, 158, 158);
+}
+
+.company-name {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.separator {
+    width: 100%;
+    display: flex;
+}
+
+.sep1 {
+    width: 50%;
+}
+
+.sep2 {
+    width: 50%;
+    border-left: 2px solid darkcyan;
+}
+
+@media screen and (max-width: 500px) {
+    .description ul li {
+        font-size: 14px;
+    }
+
+    .description ul{
+        display: block;
+    }
+}

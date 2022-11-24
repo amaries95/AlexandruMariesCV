@@ -1,0 +1,11 @@
+.header {
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    height: 100vh;
+    width: 25vw;
+}
+
+.list-group {
+    flex-direction: row;
+}

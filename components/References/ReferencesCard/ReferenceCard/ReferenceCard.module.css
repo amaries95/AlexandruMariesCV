@@ -1,0 +1,76 @@
+.reference-card{
+    padding: 10px 15px;
+    width: 75%;
+    margin: 0% 0% 5% 0%;
+    border-radius: 10px;
+}
+
+.reference-card:nth-of-type(odd)
+{
+    float: left;
+    background-color: rgb(132, 201, 218);
+}
+
+.reference-card:nth-of-type(even)
+{
+    float: right;
+    background-color: rgb(236, 236, 141) !important;
+}
+
+.reference-card:last-child {
+    margin-bottom: 25%;
+}
+
+.reference-container {
+    margin-bottom: 0.5%;
+}
+
+.reference-card p {
+    margin: 0%;
+}
+
+.author-container {
+    color: gray;
+    font-style: italic;
+    float: right;
+    margin-top: 5px;
+}
+
+.controls-admin {
+    display: inline;
+}
+
+.control-admin {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1350px) {
+    .reference-card:last-child {
+        margin-bottom: 30%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .reference-card:last-child {
+        margin-bottom: 40%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .reference-card:last-child {
+        margin-bottom: 45%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .reference-card:last-child {
+        margin-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .reference-card:last-child {
+        margin-bottom: 55%;
+    }
+}

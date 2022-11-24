@@ -1,0 +1,46 @@
+.option {
+    padding-bottom: 20%;
+}
+
+.option li {
+    list-style-type: none;
+    padding-bottom: 3px;
+    margin-bottom: 7%;
+    border-bottom: 0px solid transparent;
+}
+
+.option li a:hover {
+    color: darkcyan;
+    border-bottom: 2px solid darkcyan;
+    transition: .05s;
+}
+
+.option li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 4px;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.short-text {
+    display: none;
+}
+
+.full-text {
+    display: inline;
+}
+
+@media only screen and (max-width: 800px) {
+    .option li a span {
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .option li a span {
+        font-size: 78%;
+    }
+}

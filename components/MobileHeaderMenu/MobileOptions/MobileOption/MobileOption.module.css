@@ -1,0 +1,31 @@
+.option {
+    /* margin-left: 4%; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.option li {
+    list-style-type: none;
+    border-bottom: 0px solid transparent;
+}
+
+.option li a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: .05s;
+}
+
+.option li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 350px) {
+    .option li a {
+        font-size: 10px;
+    }
+}

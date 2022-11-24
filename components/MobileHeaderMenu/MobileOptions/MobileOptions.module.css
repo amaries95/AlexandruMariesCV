@@ -1,0 +1,7 @@
+.options{
+    flex-direction: unset;
+    display: flex;
+    align-items: center;
+    width: 57%;
+    margin-left: 3%;
+}
