@@ -26,6 +26,9 @@ export default function Home(props) {
         <meta property="profile:first_name" content="Alexandru" />
         <meta property="profile:last_name" content="Maries" />
 
+        <meta charset="UTF-8"></meta>
+        <meta name="keywords" content="Alexandru Maries, personal portofolio, developer, full-stack, .net"></meta>
+        <meta name="url" content="https://polite-moss-0cef4dc03.2.azurestaticapps.net/" />
       </Head>
       <div className={style.container}>
         <Wallpaper></Wallpaper>
