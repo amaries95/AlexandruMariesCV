@@ -17,8 +17,15 @@ export default function Home(props) {
         <title>Alexandru Maries</title>
         <meta name="title" content="Alexandru Maries"/>
         <meta name="description" content="Alexandru Maries personal portofolio"/>
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noarchive" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="og:description" content="Alexandru Maries personal portofolio"/>
+        <meta name="twitter:description" content="Alexandru Maries personal portofolio" />
+        <meta property="og:title" content="Alexandru Maries - Full Stack Web Developer Portofolio" />
+        <meta property="og:type" content="profile" />
+        <meta property="profile:first_name" content="Alexandru" />
+        <meta property="profile:last_name" content="Maries" />
+
       </Head>
       <div className={style.container}>
         <Wallpaper></Wallpaper>
