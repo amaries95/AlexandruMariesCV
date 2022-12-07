@@ -3,13 +3,17 @@ import style from "../styles/index.module.css";
 import Wallpaper from "../components/Wallpaper/Wallpaper";
 import Head from "next/head";
 
-export default function Home(props) {
-  const basicInfo = [
+Home.getInitialProps = async (ctx) => {
+  return {name: "Alexandru Maries", infos: [
     { Type: "date of birth", Info: "August 2" },
     { Type: "email", Info: "alexandru.maries@icloud.com" },
     { Type: "address", Info: "Cluj-Napoca, Romania" },
     { Type: "languages", Info: "Romanian, English" },
-  ];
+  ]};
+}
+
+export default function Home(props) {
+  
 
   return (
     <>
@@ -32,7 +36,7 @@ export default function Home(props) {
       </Head>
       <div className={style.container}>
         <Wallpaper></Wallpaper>
-        <AboutMe Infos={basicInfo}></AboutMe>
+        <AboutMe name={props.name} Infos={props.infos}></AboutMe>
       </div>
     </>
   );
